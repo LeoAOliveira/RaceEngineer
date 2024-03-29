@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		76C2F6272BB525A4007CFB50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C2F6262BB525A4007CFB50 /* AppDelegate.swift */; };
 		76C2F6292BB525A4007CFB50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C2F6282BB525A4007CFB50 /* SceneDelegate.swift */; };
-		76C2F62B2BB525A4007CFB50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C2F62A2BB525A4007CFB50 /* ViewController.swift */; };
+		76C2F62B2BB525A4007CFB50 /* RadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C2F62A2BB525A4007CFB50 /* RadioViewController.swift */; };
 		76C2F6302BB525A5007CFB50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C2F62F2BB525A5007CFB50 /* Assets.xcassets */; };
 		76C2F6332BB525A5007CFB50 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 76C2F6322BB525A5007CFB50 /* Base */; };
+		76C2F63E2BB7291C007CFB50 /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C2F63D2BB7291C007CFB50 /* RadioView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		76C2F6232BB525A4007CFB50 /* RaceEngineer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaceEngineer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C2F6262BB525A4007CFB50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76C2F6282BB525A4007CFB50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		76C2F62A2BB525A4007CFB50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76C2F62A2BB525A4007CFB50 /* RadioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioViewController.swift; sourceTree = "<group>"; };
 		76C2F62F2BB525A5007CFB50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76C2F6322BB525A5007CFB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76C2F6342BB525A5007CFB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76C2F63D2BB7291C007CFB50 /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,21 @@
 			children = (
 				76C2F6262BB525A4007CFB50 /* AppDelegate.swift */,
 				76C2F6282BB525A4007CFB50 /* SceneDelegate.swift */,
-				76C2F62A2BB525A4007CFB50 /* ViewController.swift */,
+				76C2F63C2BB728EE007CFB50 /* View */,
 				76C2F62F2BB525A5007CFB50 /* Assets.xcassets */,
 				76C2F6312BB525A5007CFB50 /* LaunchScreen.storyboard */,
 				76C2F6342BB525A5007CFB50 /* Info.plist */,
 			);
 			path = RaceEngineer;
+			sourceTree = "<group>";
+		};
+		76C2F63C2BB728EE007CFB50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76C2F62A2BB525A4007CFB50 /* RadioViewController.swift */,
+				76C2F63D2BB7291C007CFB50 /* RadioView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76C2F62B2BB525A4007CFB50 /* ViewController.swift in Sources */,
+				76C2F63E2BB7291C007CFB50 /* RadioView.swift in Sources */,
+				76C2F62B2BB525A4007CFB50 /* RadioViewController.swift in Sources */,
 				76C2F6272BB525A4007CFB50 /* AppDelegate.swift in Sources */,
 				76C2F6292BB525A4007CFB50 /* SceneDelegate.swift in Sources */,
 			);

@@ -23,7 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window = UIWindow(windowScene: windowScene)
         
-        let viewController = ViewController()
+        let viewController = RadioViewController()
         
         window?.rootViewController = viewController
         window?.makeKeyAndVisible()
